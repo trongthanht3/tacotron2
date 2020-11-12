@@ -83,7 +83,7 @@ def create_hparams(hparams_string=None, verbose=False):
         weight_decay=1e-6,
         grad_clip_thresh=1.0,
         # batch_size=64,
-        batch_size=20,      # lower batch_size for colab gpu
+        batch_size=32,      # lower batch_size for colab gpu
         mask_padding=True  # set model's padded outputs to padded values
     )
 
